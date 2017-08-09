@@ -11,7 +11,9 @@ $(document).ready(function(){
     $(".date").text(date);
     $(".start-time").text(startTime);
     $(".end-time").text(endTime);
-    $(".confirm").show();
+
+    $("#booking").slideToggle();
+    $(".confirm").slideToggle();
     event.preventDefault();
   });
 });
