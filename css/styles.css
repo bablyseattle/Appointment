@@ -1,0 +1,15 @@
+.start {
+  display: inline-block;
+  width: 45%;
+  margin-right: 4%;
+}
+
+.end {
+  display: inline-block;
+  width: 45%;
+  margin-left: 4%;
+}
+
+.confirm {
+  display: none;
+}
